@@ -5,7 +5,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: './', // Al usar './', todas las rutas se cargan de forma relativa sin importar el nombre exacto del repositorio
+    base: "/sus-creaciones", // Al usar './', todas las rutas se cargan de forma relativa sin importar el nombre exacto del repositorio
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
